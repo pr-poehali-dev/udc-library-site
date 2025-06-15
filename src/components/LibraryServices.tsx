@@ -4,9 +4,9 @@ const LibraryServices = () => {
   const services = [
     {
       icon: "BookCheck",
-      title: "Абонемент",
+      title: "Абонемент учебной литературы",
       description:
-        "Выдача учебной и научной литературы на дом для студентов и преподавателей",
+        "Выдача учебников, учебных пособий и методической литературы по педагогическим дисциплинам",
     },
     {
       icon: "Users",
@@ -15,10 +15,10 @@ const LibraryServices = () => {
         "Комфортные места для работы с литературой, групповые и индивидуальные зоны",
     },
     {
-      icon: "Search",
-      title: "Справочно-библиографическое обслуживание",
+      icon: "HelpCircle",
+      title: "Справочно-информационное обслуживание",
       description:
-        "Помощь в поиске информации, составление библиографических списков",
+        "Консультации по поиску литературы, составление библиографических справок",
     },
     {
       icon: "Monitor",
@@ -33,9 +33,10 @@ const LibraryServices = () => {
         "Услуги копирования и сканирования документов и учебных материалов",
     },
     {
-      icon: "GraduationCap",
-      title: "Методическая помощь",
-      description: "Консультации по оформлению курсовых и дипломных работ",
+      icon: "Users",
+      title: "Методическая поддержка",
+      description:
+        "Помощь в подготовке курсовых, дипломных работ и научных исследований",
     },
   ];
 
@@ -84,15 +85,15 @@ const LibraryServices = () => {
               <div className="flex items-center justify-center mb-4">
                 <Icon name="Calendar" className="h-6 w-6 text-blue-600 mr-2" />
                 <h4 className="text-lg font-semibold text-gray-900">
-                  Понедельник - Пятница
+                  Понедельник - Четверг
                 </h4>
               </div>
-              <p className="text-2xl font-bold text-blue-600">8:30 - 20:30</p>
+              <p className="text-2xl font-bold text-blue-600">9:00 - 18:00</p>
             </div>
             <div className="text-center">
               <div className="flex items-center justify-center mb-4">
                 <Icon name="Calendar" className="h-6 w-6 text-blue-600 mr-2" />
-                <h4 className="text-lg font-semibold text-gray-900">Суббота</h4>
+                <h4 className="text-lg font-semibold text-gray-900">Пятница</h4>
               </div>
               <p className="text-2xl font-bold text-blue-600">9:00 - 17:00</p>
             </div>

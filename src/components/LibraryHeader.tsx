@@ -40,7 +40,13 @@ const LibraryHeader = () => {
                 href="#"
                 className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
               >
-                Каталог
+                О библиотеке
+              </a>
+              <a
+                href="#"
+                className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+              >
+                Фонд
               </a>
               <a
                 href="#"
@@ -52,13 +58,7 @@ const LibraryHeader = () => {
                 href="#"
                 className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
               >
-                Ресурсы
-              </a>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
-              >
-                О библиотеке
+                Электронные ресурсы
               </a>
               <a
                 href="#"
@@ -94,7 +94,13 @@ const LibraryHeader = () => {
                 href="#"
                 className="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
               >
-                Каталог
+                О библиотеке
+              </a>
+              <a
+                href="#"
+                className="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Фонд
               </a>
               <a
                 href="#"
@@ -106,13 +112,7 @@ const LibraryHeader = () => {
                 href="#"
                 className="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
               >
-                Ресурсы
-              </a>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
-              >
-                О библиотеке
+                Электронные ресурсы
               </a>
               <a
                 href="#"

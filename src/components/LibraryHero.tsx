@@ -8,12 +8,12 @@ const LibraryHero = () => {
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
             Учебная библиотека
             <span className="block text-blue-600">
-              Педагогического института
+              Педагогического института СВФУ
             </span>
           </h1>
           <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
-            Центр информационных ресурсов и академической поддержки студентов и
-            преподавателей СВФУ
+            Информационно-образовательный центр для студентов и преподавателей
+            педагогических специальностей
           </p>
 
           {/* Search Bar */}
@@ -40,22 +40,22 @@ const LibraryHero = () => {
               <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Icon name="BookOpen" className="h-8 w-8 text-white" />
               </div>
-              <div className="text-3xl font-bold text-gray-900">15,000+</div>
-              <div className="text-gray-600">Книг в фонде</div>
+              <div className="text-3xl font-bold text-gray-900">12,000+</div>
+              <div className="text-gray-600">Изданий в фонде</div>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Icon name="Users" className="h-8 w-8 text-white" />
               </div>
-              <div className="text-3xl font-bold text-gray-900">2,500+</div>
-              <div className="text-gray-600">Читателей</div>
+              <div className="text-3xl font-bold text-gray-900">1,800+</div>
+              <div className="text-gray-600">Активных читателей</div>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Icon name="Clock" className="h-8 w-8 text-white" />
               </div>
-              <div className="text-3xl font-bold text-gray-900">12 часов</div>
-              <div className="text-gray-600">Ежедневно</div>
+              <div className="text-3xl font-bold text-gray-900">70 часов</div>
+              <div className="text-gray-600">В неделю</div>
             </div>
           </div>
         </div>

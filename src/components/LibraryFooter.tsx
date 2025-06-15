@@ -37,22 +37,22 @@ const LibraryFooter = () => {
             <h3 className="text-lg font-semibold mb-4">Режим работы</h3>
             <div className="space-y-2">
               <div className="flex justify-between">
-                <span className="text-gray-300">Пн-Пт:</span>
-                <span className="text-white">8:30-20:30</span>
+                <span className="text-gray-300">Пн-Чт:</span>
+                <span className="text-white">9:00-18:00</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-300">Суббота:</span>
+                <span className="text-gray-300">Пятница:</span>
                 <span className="text-white">9:00-17:00</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-300">Воскресенье:</span>
+                <span className="text-gray-300">Сб, Вс:</span>
                 <span className="text-white">выходной</span>
               </div>
             </div>
             <div className="mt-4 p-3 bg-gray-800 rounded-lg">
               <p className="text-sm text-gray-300">
                 <Icon name="AlertCircle" className="h-4 w-4 inline mr-2" />
-                Санитарный день: последняя пятница месяца
+                Обеденный перерыв: 13:00-14:00
               </p>
             </div>
           </div>
